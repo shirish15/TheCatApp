@@ -1,6 +1,6 @@
-package com.example.thecatapp.cat.api
+package com.example.network.api
 
-import com.example.thecatapp.cat.models.Breed
+import com.example.network.models.Breed
 import retrofit2.http.GET
 import retrofit2.http.Query
 

@@ -1,4 +1,4 @@
-package com.example.thecatapp.cat.models
+package com.example.network.models
 
 import com.squareup.moshi.Json
 import com.squareup.moshi.JsonClass

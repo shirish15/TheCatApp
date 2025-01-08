@@ -1,6 +1,5 @@
-package com.example.thecatapp.network
+package com.example.network.network
 
-import com.example.thecatapp.cat.api.CatApi
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
@@ -23,8 +22,8 @@ class CatRetrofitService {
 
     @Provides
     @Singleton
-    fun provideCatApiService(retrofit: Retrofit): CatApi {
-        return retrofit.create(CatApi::class.java)
+    fun provideCatApiService(retrofit: Retrofit): com.example.network.api.CatApi {
+        return retrofit.create(com.example.network.api.CatApi::class.java)
     }
 }
 

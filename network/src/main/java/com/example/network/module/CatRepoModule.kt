@@ -1,7 +1,7 @@
-package com.example.thecatapp.cat.module
+package com.example.network.module
 
-import com.example.thecatapp.cat.repo.CatRepo
-import com.example.thecatapp.cat.repo.impl.CatRepoImpl
+import com.example.network.repo.CatRepo
+import com.example.network.repo.impl.CatRepoImpl
 import dagger.Binds
 import dagger.Module
 import dagger.hilt.InstallIn

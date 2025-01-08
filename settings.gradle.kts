@@ -21,4 +21,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "TheCatApp"
 include(":app")
- 
+include(":network")

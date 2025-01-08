@@ -3,9 +3,9 @@ package com.example.thecatapp.cat
 import androidx.compose.runtime.Immutable
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.example.thecatapp.cat.models.Breed
-import com.example.thecatapp.network.Result
-import com.example.thecatapp.cat.repo.CatRepo
+import com.example.network.models.Breed
+import com.example.network.network.Result
+import com.example.network.repo.CatRepo
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.delay

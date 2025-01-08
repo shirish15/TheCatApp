@@ -40,12 +40,11 @@ import com.airbnb.lottie.compose.LottieCompositionSpec
 import com.airbnb.lottie.compose.LottieConstants
 import com.airbnb.lottie.compose.animateLottieCompositionAsState
 import com.airbnb.lottie.compose.rememberLottieComposition
+import com.example.network.models.Breed
 import com.example.thecatapp.R
-import com.example.thecatapp.cat.models.Breed
 import com.example.thecatapp.navigation.NavigationEvents
 import com.example.thecatapp.ui.theme.Typography
 import com.example.thecatapp.utils.TopBar
-import com.example.thecatapp.utils.buildAnnotatedString
 
 @Composable
 fun CatScreen(
